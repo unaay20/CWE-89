@@ -4,8 +4,8 @@ class Tienda
     // Intentamos una conexión a un servidor de MySQL 
     static $mysqli; 
     static $servidor = 'localhost'; 
-    static $usuario = 'root'; 
-    static $password = 'unaay'; 
+    static $usuario = 'tienda_user'; 
+    static $password = 't13Nd@'; 
     static $base_de_datos = 'tienda'; 
  
     public function __construct() 
